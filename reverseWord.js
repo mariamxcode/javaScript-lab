@@ -6,5 +6,6 @@ let reverseWord = ""
     for(let letter = word.length;letter >= 0; letter-- ){
         reverseWord+=word.charAt(letter)
     }
+    console.log(reverseWord)
     
 
