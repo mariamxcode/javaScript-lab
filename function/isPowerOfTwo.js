@@ -1,5 +1,5 @@
 const isPowerOfTwo=function (number){
-if(number % 2 == 0){
+if(Math.floor(Math.pow(number,2))){
  return true;
 }else {
 return false;
